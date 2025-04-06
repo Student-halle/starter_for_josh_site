@@ -12,6 +12,7 @@ function load_my_scripts() {
 }
 add_action( 'wp_enqueue_scripts', 'load_my_scripts');
 ?>
+
 <?php
 function register_navwalker(){
   require_once get_template_directory() . '/class-wp-bootstrap-navwalker.php';
