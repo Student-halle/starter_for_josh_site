@@ -129,6 +129,7 @@ Version: 1
     color:white;
     font-weight:bold;
     padding:5%;
+<<<<<<< HEAD
 }
 
 .smallpage-bg {
@@ -147,3 +148,6 @@ height: 40vh; /*Viewport Height (vh) — This unit is based on the height of the
     margin-top: 9%;
     padding-bottom: 5%;
 }
+=======
+}
+>>>>>>> a41bafa16301173cd0e0af5a769f1a8a76a6af36
