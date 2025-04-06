@@ -1,7 +1,10 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset=<?php bloginfo('charset'); ?>
+
+  <meta charset=<?php bloginfo('charset'); ?> 
+  <meta charset="<?php bloginfo('charset'); ?">
+ 
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta http-equiv="X-UA-Compatible" content="ie=edge">
 <meta name="Description" content="Enter your description here"/>
@@ -57,19 +60,20 @@
     }
 ?>">
 <link rel="shortcut icon" href="<?php bloginfo('template_directory'); ?>/images/favicon.ico">
-
-
-
-
 </head>
-<body>
+
+
+<body> 
 <header class="container-fluid" style="background-size: cover; background-image: url(<?php the_field('headerbackgroundimage') ?>);"> 
+
+<header class="container-fluid bg1"> 
     <div class="container">
 
     <nav class="navbar navbar-expand-md navbar-dark">
         <!-- Brand -->
         <a class="navbar-brand" href="#"><span class="josh">JOSH </span> <span class="orange">WHITKIN </span></a>
       
+
         <nav class="navbar navbar-expand-md bg-dark navbar-dark">
         <!-- Brand -->
         <a class="navbar-brand" href=" http://206.189.45.97/~mesh1/"><span class="josh">JOSH</span><span class="orange">WHITKIN</span></a>
@@ -97,6 +101,33 @@ wp_nav_menu( array(
       </nav>
 <div class="tag">
 <h1><?php the_field('maintagline'); ?></h1>
+
+        <!-- Toggler/collapsibe Button -->
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      
+        <!-- Navbar links -->
+        <div class="collapse navbar-collapse" id="collapsibleNavbar">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="#">HOME</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">PROJECTS</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">CV</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">CONTACT</a>
+              </li>
+          </ul>
+        </div>
+      </nav>
+<div class="tag">
+<h1>Games Design For The Future</h1>
+>>>>>>> a41bafa16301173cd0e0af5a769f1a8a76a6af36
 </div>
     </div> <!-- container -->
 <?php wp_head(); ?> <!-- very important that this is added-->
