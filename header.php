@@ -3,7 +3,7 @@
 <head>
 
   <meta charset=<?php bloginfo('charset'); ?> 
-  <meta charset="<?php bloginfo('charset'); ?">
+  <meta charset=<?php bloginfo('charset'); ?>
  
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta http-equiv="X-UA-Compatible" content="ie=edge">
@@ -127,7 +127,7 @@ wp_nav_menu( array(
       </nav>
 <div class="tag">
 <h1>Games Design For The Future</h1>
->>>>>>> a41bafa16301173cd0e0af5a769f1a8a76a6af36
+
 </div>
     </div> <!-- container -->
 <?php wp_head(); ?> <!-- very important that this is added-->
