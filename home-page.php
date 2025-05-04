@@ -6,6 +6,8 @@
 <?php get_header();?>   <!--  Tells WordPress to include header.php -->
          <section class="container-fluid aboutbg text-center">
             <div class="container">
+            <dotlottie-player id ="twelfthLottie" src="http://170.187.231.66/~mesh14/wp-content/uploads/2024/04/images/Animation - 1746269053648.json" background="transparent" speed="1" style="margin:auto width: 200px; height: 200px" direction="1" playMode="normal"></dotlottie-player></a>
+
             <h2><?php the_field('titleforaboutme'); ?></h2><!-- custom field for the aboutme content--> 
             <p class="particle"><?php the_field('subtitleforaboutme'); ?></p>
             <p class="about-text"><?php the_field('paragraphforaboutme'); ?></p> 
