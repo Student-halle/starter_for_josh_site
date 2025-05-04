@@ -71,13 +71,12 @@
 
     <nav class="navbar navbar-expand-md navbar-dark">
         <!-- Brand -->
-        <a class="navbar-brand" href="#"><span class="josh">JOSH </span> <span class="orange">WHITKIN </span></a>
-      
+       <!--  <a class="navbar-brand" href="#"><span class="josh">JOSH </span> <span class="orange">WHITKIN </span></a>
+       -->
+       <a class="navbar-brand" href="#">
+        <dotlottie-player src="http://170.187.231.66/~mesh14/wp-content/uploads/2024/04/images/Frame 2.json" background="transparent" speed="1" style="width: 250px; height: 100px" direction="1" playMode="normal" autoplay></dotlottie-player></a>
 
-        <nav class="navbar navbar-expand-md bg-dark navbar-dark">
-        <!-- Brand -->
-        <a class="navbar-brand" href=" http://206.189.45.97/~mesh1/"><span class="josh">JOSH</span><span class="orange">WHITKIN</span></a>
-      
+       
         <!-- Toggler/collapsibe Button -->
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-controls="bs-example-navbar-collapse-1" aria-expanded="false" aria-label="<?php esc_attr_e( 'Toggle navigation', 'your-theme-slug' ); ?>">
         <span class="navbar-toggler-icon"></span>
